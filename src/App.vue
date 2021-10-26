@@ -1,17 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <button @click="changeMode('ShowFood')">Show Food</button>
+  <button @click="changeMode('AddFood')">Add Food</button>
+  <component :is="cmpName"></component>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ShowFood from "./components/ShowFood.vue";
+import AddFood from './components/AddFood.vue';
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ShowFood,
+    AddFood
+  },
+  data() {
+    return {
+      cmpName: "ShowFood",
+    };
+  },
+  methods: {
+    changeMode(mode) {
+      this.cmpName = mode;
+    },
+  },
+};
 </script>
 
 <style>
