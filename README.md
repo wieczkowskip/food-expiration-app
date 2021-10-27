@@ -15,4 +15,7 @@ npm install
 ```
 npm run serve
 ```
-### 3. W przeglądarce wpisz "localhost:8080"
+### 3. W przeglądarce wpisz:
+```
+localhost:8080
+```
