@@ -19,3 +19,13 @@ npm run serve
 ```
 localhost:8080
 ```
+### Galeria zdjęć:
+
+# Widok przeglądu produktów spożywczych
+![first](https://user-images.githubusercontent.com/75487443/139124186-50acbff6-3c58-4330-923a-4208a4d00ef4.JPG)
+
+# Widok dodawania nowego produktu
+![second](https://user-images.githubusercontent.com/75487443/139124214-1ed58c7f-c5ab-4442-a207-082b46fd28cb.JPG)
+
+# Widok podczas nieprawidłowo wypełnionego formularza.
+![third](https://user-images.githubusercontent.com/75487443/139124223-19774e0c-e394-4827-8664-7ca15a73cec9.JPG)
