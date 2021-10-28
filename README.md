@@ -5,7 +5,7 @@ Projekt mini-aplikacji do zarządzania produktami spożywczymi poprzez kontrolę
 Dodawanie produktu w aplikacji jest zabezpieczone podstawową walidacją danych, jeżeli są jakieś błędy to wyświetlana jest wtedy informacja o błędzie w formularzu.
 Dane w aplikacji są przechowywane w bazie danych przy pomocy Firebase.
 
-Proces instalacji projektu:
+## Proces instalacji projektu:
 
 ### 1. Instalacja potrzebnych paczek:
 ```
